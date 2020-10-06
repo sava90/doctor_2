@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+body {
+    font: 12px/18px Arial, sans-serif;
+    height: 100%;
+}
+.wrapper {
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+.header {
+    height: 50px;
+    padding: 0 15px;
+    background: #f2f2f2;
+}
+.header ul li {
+    list-style: none;
+    line-height: 50px;
+}
+.header a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.content {
+    padding: 0 0 50px;
+}
+h1 {
+    margin: 15px 0;
+}
+.btn-wrap {
+    text-align: center;
+}
+.btn-wrap li {
+    list-style: none;
+    margin: 5px 0;
+}
+.btn-wrap li .btn {
+    text-decoration: none;
+    border: 1px solid #c6c6c6;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+}
+.footer {
+    text-align: center;
+    line-height: 50px;
+    margin: -50px auto 0;
+    min-width: 1000px;
+    max-width: 1000px;
+    height: 50px;
+    background: #cecece;
+    position: relative;
+}

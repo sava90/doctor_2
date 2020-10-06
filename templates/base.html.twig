@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Doctor{% endblock %}</title>
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('style') }}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <ul class="nav nav-left">
+                    <li>
+                        <a href="{{ path('home') }}">Home</a>
+                    </li>
+                </ul>
+            </header>
+            {% block body %}{% endblock %}
+        </div>
+        <footer class="footer">
+            © {{ "now"|date("Y") }}
+        </footer>
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </body>
+</html>

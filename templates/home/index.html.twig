@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Doctor{% endblock %}
+
+{% block body %}
+
+    <main class="content">
+        <h1>Part 3</h1>
+
+        <ul class="btn-wrap">
+            <li>
+                <a href="javascript:void(0);" id="first-part" class="btn">Часть 1</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" id="second-part" class="btn">Часть 2</a>
+            </li>
+        </ul>
+
+        <div class="statistics-wrap">
+            <div>
+                End time: <span id="end-date-script-work"></span>
+            </div>
+            <div>
+                Total request: <span id="total-request"></span>
+            </div>
+            <div>
+                Total bad request: <span id="total-bad-request"></span>
+            </div>
+            <div>
+                Percent: <span id="percent"></span>
+            </div>
+            <div>
+                Status: <span id="status"></span>
+            </div>
+        </div>
+    </main>
+
+{% endblock %}
